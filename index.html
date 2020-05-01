@@ -1,0 +1,315 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>LeaRM-又拍云存储</title>
+    <meta name="description" content="为LeaRM.cn提供又拍云存储,CDN分发服务" />
+	<meta name="copyright" content="Learm">
+    <meta name="keywords" content="learm,learn,html,存储,learmblog,又拍云,存储域名" />
+    <meta name="robots" content="all">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#663fb5">
+    <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#663fb5">
+    <link rel="stylesheet" href="css/landio.css">
+  </head>
+
+  <body>
+
+    <!-- Navigation
+    ================================================== -->
+
+    <nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="https://www.learm.cn">
+          <span class="sr-only">Learm</span>
+        </a>
+        <a class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="false" aria-controls="collapsingNavbar">
+        &#9776;
+      </a>
+        <a class="navbar-toggler navbar-toggler-custom hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingMobileUser" aria-expanded="false" aria-controls="collapsingMobileUser">
+          <span class="icon-user"></span>
+        </a>
+        <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
+          <ul class="nav navbar-nav pull-xs-right">
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="https://www.learm.cn"target="_blank">LeaRM主页<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="https://blog.learm.cn"target="_blank">LeaRM博客</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="https://github.com/gzlearm" target="_blank">GitHub</a>
+            </li>
+            <li class="nav-item nav-item-toggable hidden-md-up">
+              <form class="navbar-form">
+                <input class="form-control navbar-search-input" type="text" placeholder="Type your search &amp; hit Enter&hellip;">
+              </form>
+            </li>
+            <li class="navbar-divider hidden-sm-down"></li>
+            <li class="nav-item dropdown nav-dropdown-search hidden-sm-down">
+              <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="icon-search"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right dropdown-menu-search" aria-labelledby="dropdownMenu1">
+                <form class="navbar-form">
+                  <input class="form-control navbar-search-input" type="text" placeholder="Type your search &amp; hit Enter&hellip;">
+                </form>
+              </div>
+            </li>
+            <li class="nav-item dropdown hidden-sm-down textselect-off">
+              <a class="nav-link dropdown-toggle nav-dropdown-user" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="img/qq.jpg" height="40" width="40" alt="Avatar" class="img-circle"> <span class="icon-caret-down"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right dropdown-menu-user dropdown-menu-animated" aria-labelledby="dropdownMenu2">
+                <div class="media">
+                  <div class="media-left">
+                    <img src="img/qq.jpg" height="60" width="60" alt="Avatar" class="img-circle">
+                  </div>
+                  <div class="media-body media-middle">
+                    <h5 class="media-heading">豆子</h5>
+                    <h6>admin@learm.cn</h6>
+                  </div>
+                </div>
+                <a href="https://www.learm.cn/jk"  target="_blank" class="dropdown-item text-uppercase">服务监控</a>
+                <a href="#" class="btn-circle has-gradient pull-xs-right">
+                  <span class="sr-only">Edit</span>
+                  <span class="icon-edit"></span>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="collapsingMobileUser" class="collapse navbar-toggleable-custom dropdown-menu-custom p-x-1 hidden-md-up" role="tabpanel" aria-labelledby="collapsingMobileUser">
+          <div class="media m-t-1">
+            <div class="media-left">
+              <img src="img/qq.jpg" height="60" width="60" alt="Avatar" class="img-circle">
+            </div>
+            <div class="media-body media-middle">
+              <h5 class="media-heading">豆子</h5>
+              <h6>admin@learm.cn</h6>
+            </div>
+          </div>
+          <a href="#" class="dropdown-item text-uppercase">View posts</a>
+          <a href="#" class="dropdown-item text-uppercase">Manage groups</a>
+          <a href="#" class="dropdown-item text-uppercase">Subscription &amp; billing</a>
+          <a href="#" class="dropdown-item text-uppercase text-muted">Log out</a>
+          <a href="#" class="btn-circle has-gradient pull-xs-right m-b-1">
+            <span class="sr-only">Edit</span>
+            <span class="icon-edit"></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section
+    ================================================== -->
+
+    <header class="jumbotron bg-inverse text-xs-center center-vertically" role="banner">
+      <div class="container">
+        <h1 class="display-3">又拍云存储分发</h1>
+        <h2 class="m-b-3">本站为未来的主站、图床、博客 提供 	CDN存储分发服务</h2>
+        <a class="btn btn-secondary-outline m-b-1" href="https://console.upyun.com/register/?invite=BJkXUrMLL" target="_blank" role="button"><span class="icon-sketch"></span>加入又拍云</a>
+      </div>
+    </header>
+
+    <!-- Intro
+    ================================================== -->
+
+    <section class="section-intro bg-faded text-xs-center">
+      <div class="container">
+        <h3 class="wp wp-1">加入又拍云联盟 领取 67 元代金券</h3>
+        <p class="lead wp wp-2">只需要在网站底部加入又拍云Logo及链接即可</p>
+        <img src="img/mock.png" alt="iPad mock" class="img-fluid wp wp-3">
+      </div>
+    </section>
+
+    <!-- Features
+    ================================================== -->
+
+    <section class="section-features text-xs-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <span class="icon-pen display-1"></span>
+                <h4 class="card-title">云分发 CDN</h4>
+                <h6 class="card-subtitle text-muted">可编程、可自助配置、服务响应快</h6>
+                <p class="card-text">内容分发网络。将网站内容分发至全网加速节点，配合智能调度和边缘缓存，使用户可就近获取所需内容，解决网络拥塞问题，提高网站响应速度和可用性，降低源站压力。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <span class="icon-thunderbolt display-1"></span>
+                <h4 class="card-title">云存储 USS</h4>
+                <h6 class="card-subtitle text-muted">高可用，低成本，易对接的对象存储服务</h6>
+                <p class="card-text">面向非结构化数据的对象存储服务，具有使用简单、高稳定、高安全等特点，满足大数据、人工智能、物联网背景下的数据传输、处理、存储、分发与容灾需求。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card m-b-0">
+              <div class="card-block">
+                <span class="icon-heart display-1"></span>
+                <h4 class="card-title">SSL 证书服务</h4>
+                <h6 class="card-subtitle text-muted">多、快、好 —— 安全证书全周期服务</h6>
+                <p class="card-text">提供 SSL 证书的申购、管理、部署等功能。与国际顶级 CA 机构合作，证书类型丰富，操作流程简单方便，为用户提供一站式 HTTPS 安全解决方案。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video
+    ================================================== -->
+
+    <section class="section-video bg-inverse text-xs-center wp wp-4">
+      <h3 class="sr-only">Video</h3>
+      <video id="demo_video" class="video-js vjs-default-skin vjs-big-play-centered" controls poster="img/video-poster.jpg" data-setup='{}'>
+        <source src="https://www.upyun.com/static/simple-m1.mp4" type='video/mp4'>
+      </video>
+    </section>
+
+    <!-- Pricing
+    ================================================== -->
+
+    <section class="section-pricing bg-faded text-xs-center">
+      <div class="container">
+        <h3>价格套餐</h3>
+        <div class="row p-y-3">
+          <div class="col-md-4 p-t-md wp wp-5">
+            <div class="card pricing-box">
+              <div class="card-header text-uppercase">
+                对象存储
+              </div>
+              <div class="card-block">
+                <p class="card-title">低频访问类型上线， 存储成本更低廉
+</p>
+                <h4 class="card-text">
+                  <sup class="pricing-box-currency">￥</sup>
+                  <span class="pricing-box-price">0.43</span>
+                  <small class="text-muted text-uppercase">/100G</small>
+                </h4>
+              </div>
+              <ul class="list-group list-group-flush p-x">
+                <li class="list-group-item">100G存储1天</li>
+                <li class="list-group-item">所有请求免费</li>
+                <li class="list-group-item">CDN双向流量免费</li>
+              </ul>
+              <a href="https://console.upyun.com/register/?invite=BJkXUrMLL" class="btn btn-primary-outline">立即注册</a>
+            </div>
+          </div>
+          <div class="col-md-4 stacking-top">
+            <div class="card pricing-box pricing-best p-x-0">
+              <div class="card-header text-uppercase">
+                CDN流量包
+              </div>
+              <div class="card-block">
+                <p class="card-title">时不时会有特惠活动，价格更低</p>
+                <h4 class="card-text">
+                  <sup class="pricing-box-currency">￥</sup>
+                  <span class="pricing-box-price">0.29</span>
+                  <small class="text-muted text-uppercase">/G</small>
+                </h4>
+              </div>
+              <ul class="list-group list-group-flush p-x">
+                <li class="list-group-item">按量计费</li>
+                <li class="list-group-item">国内动态请求 2毛 万次</li>
+                <li class="list-group-item">HTTPS 请求 5分 万次</li>
+              </ul>
+              <a href="https://console.upyun.com/register/?invite=BJkXUrMLL" class="btn btn-primary">立即注册</a>
+            </div>
+          </div>
+          <div class="col-md-4 p-t-md wp wp-6">
+            <div class="card pricing-box">
+              <div class="card-header text-uppercase">
+                SSL证书
+              </div>
+              <div class="card-block">
+                <p class="card-title">免费白嫖单域名证书</p>
+                <h4 class="card-text">
+                  <sup class="pricing-box-currency">￥</sup>
+                  <span class="pricing-box-price">0</span>
+                  <small class="text-muted text-uppercase">元</small>
+                </h4>
+              </div>
+              <ul class="list-group list-group-flush p-x">
+                <li class="list-group-item">免费单域名证书</li>
+                <li class="list-group-item">含两款免费 DV SSL 证书</li>
+                <li class="list-group-item">OV & EV SSL 证书限时优惠，低至 75 折</li>
+              </ul>
+              <a href="https://console.upyun.com/register/?invite=BJkXUrMLL" class="btn btn-primary-outline">立即注册</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Text Content
+    ================================================== -->
+
+    <section class="section-text">
+      <div class="container">
+        <h3 class="text-xs-center">又拍云介绍</h3>
+        <div class="row p-y-3">
+          <div class="col-md-5">
+            <p class="wp wp-7"><h5>又拍云为客户提供对象存储、CDN等服务。又拍云拥10个数据处理中心、1000 多个国内 CDN 节点、近百个海外 CDN 节点、40000 台服务器、10TB 保有带宽，日均请求超过 1500 亿次。</h5></p>
+          </div>
+          <div class="col-md-5 col-md-offset-2 separator-x">
+            <p class="wp wp-8"><h2>又拍云广州分公司</h2><br>地址：<br>广东省广州市天河区黄埔大道西 76 号富力盈隆广场2310室<br><br>联系方式：020-29015900<br>邮政编码：
+510000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Footer
+    ================================================== -->
+
+    <footer class="section-footer bg-inverse" role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-5">
+            <div class="media">
+              <h2><small class="media-body media-bottom"><a target="_blank" href="https://www.learm.cn">@2020 Learm</a><br><br>
+			  <a href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral"><img src="./img/logo5.png" width="80px" height="30"> 又拍云提供CDN服务</a></small>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-7">
+            <ul class="nav nav-inline">
+              <li class="nav-item active">
+                <a class="nav-link" href="https://www.learm.cn"target="_blank">Learm<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://blog.learm.cn"target="_blank">LeaRM Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://github.com/gzlearm" target="_blank">GitHub</a></li>
+              <li class="nav-item"><a class="nav-link scroll-top" href="#totop">回到顶部 <span class="icon-caret-up"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/landio.min.js"></script>
+  </body>
+</html>
